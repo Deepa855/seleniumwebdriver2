@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EntrataSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="EntrataTests(failed)">
+    <classes>
+      <class name="tests.HomePageTests">
+        <methods>
+          <include name="interactWithContactFormWithoutSubmitting"/>
+          <include name="verifyHomePageTitle"/>
+          <include name="navigateToProductsPage"/>
+          <include name="setupClass"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.HomePageTests -->
+    </classes>
+  </test> <!-- EntrataTests(failed) -->
+</suite> <!-- Failed suite [EntrataSuite] -->
